@@ -236,6 +236,13 @@ p {
   overflow: hidden;
 }
 
+
+.height {
+  max-height: 350px !important;
+  background-position: top  ;
+
+}
+
 .clear {
   clear: both;
 }
