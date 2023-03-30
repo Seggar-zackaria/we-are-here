@@ -1,12 +1,6 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Educal – Online Learning and Education HTML5 Template
-    Author: Theme Pure
-    Support: basictheme@gmail.com
-    Description: Educal – Online Learning and Education HTML5 Template
-    Version: 1.0
-
 -----------------------------------------------------------------------------------
 
 /************ TABLE OF CONTENTS ***************
@@ -46,7 +40,7 @@
 /*----------------------------------------*/
 /*  01. Theme default CSS
 /*----------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -54,7 +48,7 @@
 }
 
 body {
-  font-family: "Hind", sans-serif;
+  font-family: "Changa", sans-serif !important;
   font-size: 16px;
   font-weight: normal;
   color: #6d6e75;
@@ -143,7 +137,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Hind", sans-serif;
+  font-family: "changa", sans-serif !important;
   color: #0e1133;
   margin-top: 0px;
   font-weight: 700;
@@ -189,7 +183,7 @@ li {
 }
 
 p {
-  font-family: "Hind", sans-serif;
+  font-family: "changa", sans-serif !important;
   font-size: 16px;
   font-weight: normal;
   color: #6d6e75;
@@ -7304,8 +7298,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .page__title-wrapper .breadcrumb .breadcrumb-item.active::before {
   content: ".";
-  font-family: "Hind", sans-serif;
-  font-size: 30px;
+  font-family: "changa", sans-serif !important;  font-size: 30px;
   color: #ffffff;
   line-height: 18px;
   padding-right: 13px;
@@ -7320,7 +7313,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .page__title-wrapper .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
   content: ".";
-  font-family: "Hind", sans-serif;
+  font-family: "changa", sans-serif !important;
   font-size: 30px;
   color: #ffffff;
   line-height: 18px;
@@ -7459,15 +7452,14 @@ p.checkout-coupon input[type=text]:focus {
 }
 .page__title-breadcrumb .breadcrumb .breadcrumb-item.active::before {
   content: ".";
-  font-family: "Hind", sans-serif;
-  font-size: 30px;
+  font-family: "changa", sans-serif !important;  font-size: 30px;
   color: #53545b;
   line-height: 18px;
   padding-right: 13px;
 }
 .page__title-breadcrumb .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
   content: ".";
-  font-family: "Hind", sans-serif;
+  font-family: "changa", sans-serif !important;
   font-size: 30px;
   color: #53545b;
   line-height: 18px;
@@ -7659,12 +7651,12 @@ p.checkout-coupon input[type=text]:focus {
   background: #03a9f4;
 }
 .contact__social ul li a.pin {
-  color: #d8163f;
+  color: #EC5BA0;
   background: rgba(216, 22, 63, 0.1);
 }
 .contact__social ul li a.pin:hover {
   color: #ffffff;
-  background: #d8163f;
+  background: #EC5BA0;
 }
 .contact__icon {
   margin-bottom: 28px;
